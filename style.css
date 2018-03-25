@@ -1,0 +1,90 @@
+body{
+  font: sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
+#header{
+  height: 80px;
+  background-color: #50636C;
+}
+#logo{
+  padding-left: 10px;
+  padding-top: 25px;
+  font-size: 25px;
+  cursor:pointer;
+  color:white;
+  float: left;
+}
+.bar{
+  margin-left: 30%;
+  padding-top: 20px;
+}
+.togglebutton{
+  height: 40px;
+  margin-top: 0px;
+  float: left;
+  padding-left: 2em;
+  padding-right: 2em;
+  border:4px solid white;
+  border-right: none;
+}
+#html{
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+#op{
+  font-size: 25px;
+  font-weight: bold;
+  border-right: 1px solid white;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.active{
+  background-color: lightgrey;
+}
+.highlight{
+  background-color: grey;
+}
+textarea{
+  border:4px solid #39475A;
+  resize: none;
+  background-color: #27313E;
+}
+#htmlpanel{
+  color:#e5b54b;
+  font-size: 30px;
+}
+#csspanel{
+  color:#46b532;
+  font-size: 30px;
+}
+#jspanel{
+  color:#f82955;
+  font-size: 30px;
+}
+iframe{
+  border: none;
+  font-size: 30px;
+  background-color: #d3d3d3;
+  margin-left: 10px;
+}
+.pn{
+  float:left;
+  width: 50%;
+  border-left: none;
+}
+.hidden{
+  display:none;
+}
+footer{
+  margin-top:10px;
+  float:left;
+  color: Teal;
+  font-size: 25px;
+  background-color: grey;
+  font-weight: bold;
+}
+.ff{
+width: 1000px;
+height: 20px;
+}

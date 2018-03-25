@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" href="ico.png">
+    <title>CodeX_MKN</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="jquery-ui.css">
+    <script src="jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="jquery-linedtextarea.js"></script>
+    <link rel="stylesheet" href="jquery-linedtextarea.css">
+  </head>
+  <body>
+    <div id="header">
+      <div id="logo">
+        <strong>CodeX_MKN</strong>
+      </div>
+      <div class="bar">
+        <div class="togglebutton active" id="html">
+          <img src="3.png" alt="HTML5" width="60px" height="35px"></img>
+        </div>
+        <div class="togglebutton" id="css">
+          <img src="1.png" alt="CSS3" width="60px" height="35px"></img>
+        </div>
+        <div class="togglebutton" id="js">
+          <img src="2.png" alt="JS" width="60px" height="35px"></img>
+        </div>
+        <div class="togglebutton active" id="op">
+          Output
+        </div>
+      </div>
+    </div><br>
+    <div class="panel">
+      <textarea id="htmlpanel" class="pn"><p id="para">Hello world!</p><p id="date"></p></textarea>
+      <textarea id="csspanel" class="pn hidden">p{color:teal;}</textarea>
+      <textarea id="jspanel" class="pn hidden">document.getElementById("date").innerHTML=Date();</textarea>
+      <iframe  id="oppanel" class="pn"></iframe>
+</div>
+  <script type="text/javascript" src="jquery.js"></script>
+<div class="container">
+  <footer class="jumbotron ff">
+    Design By:MKN<br>
+    Copyright (c) 2018 Copyright Holder All Rights Reserved.
+  </footer>
+</div>
+  </body>
+</html>
